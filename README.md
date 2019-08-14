@@ -1,6 +1,7 @@
 ## NCU Good 实验室openstack部署
 
 这学期对虚拟化技术很感兴趣，刚好实验室有一个小的集群，虽然最近docker技术非常火，但考虑到学院很多师生对命令行并不熟悉，所以选择了openstack虚拟化实验室的集群，使得可以为用户提供Windows环境和图形界面。最近实验买了很多GPU： 8块 tesla v100和一台DGX-STATION，但是对于GPU的虚拟化部分还不是很熟悉，目前项目只是结合OpenStack管理系统实现了简单的用户认证和实例使用，有时间将会尝试：
+
 - 基于Hadoop实现大数据计算集群服务，用户可以以最便捷的方式启动Hadoop进行计算任务。
 - 基于K8S，kubeflow，gpu 加速设备实现caffe，tensorflow 等深度学习高性能计算集群。
 - 基于Gluster FS实现云存储系统。
